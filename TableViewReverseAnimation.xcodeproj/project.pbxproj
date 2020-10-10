@@ -13,6 +13,9 @@
 		490123C5253216970019AA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490123C3253216970019AA8C /* Main.storyboard */; };
 		490123C72532169A0019AA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490123C62532169A0019AA8C /* Assets.xcassets */; };
 		490123CA2532169A0019AA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490123C82532169A0019AA8C /* LaunchScreen.storyboard */; };
+		490123D32532175D0019AA8C /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490123D22532175D0019AA8C /* ProductTableViewCell.swift */; };
+		490123D6253217B10019AA8C /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490123D5253217B10019AA8C /* ProductViewController.swift */; };
+		490123D9253218790019AA8C /* SSBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490123D8253218790019AA8C /* SSBadgeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		490123C62532169A0019AA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490123C92532169A0019AA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490123CB2532169A0019AA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490123D22532175D0019AA8C /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		490123D5253217B10019AA8C /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		490123D8253218790019AA8C /* SSBadgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSBadgeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				490123BF253216970019AA8C /* SceneDelegate.swift */,
 				490123C1253216970019AA8C /* ViewController.swift */,
 				490123C3253216970019AA8C /* Main.storyboard */,
+				490123D22532175D0019AA8C /* ProductTableViewCell.swift */,
+				490123D5253217B10019AA8C /* ProductViewController.swift */,
+				490123D8253218790019AA8C /* SSBadgeButton.swift */,
 				490123C62532169A0019AA8C /* Assets.xcassets */,
 				490123C82532169A0019AA8C /* LaunchScreen.storyboard */,
 				490123CB2532169A0019AA8C /* Info.plist */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				490123C2253216970019AA8C /* ViewController.swift in Sources */,
+				490123D32532175D0019AA8C /* ProductTableViewCell.swift in Sources */,
 				490123BE253216970019AA8C /* AppDelegate.swift in Sources */,
+				490123D6253217B10019AA8C /* ProductViewController.swift in Sources */,
 				490123C0253216970019AA8C /* SceneDelegate.swift in Sources */,
+				490123D9253218790019AA8C /* SSBadgeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
